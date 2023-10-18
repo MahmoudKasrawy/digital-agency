@@ -118,7 +118,7 @@ $(' .owl-carousel').owlCarousel({
           
         },
         600:{
-            items:1,
+            items:2,
             nav:true,
             navText: [
                 '<i class="bi bi-chevron-left"></i>',
@@ -127,7 +127,7 @@ $(' .owl-carousel').owlCarousel({
             loop:true,
         },
         1000:{
-            items:1,
+            items:4,
             nav:true,
             navText: [
                 '<i class="bi bi-chevron-left"></i>',
