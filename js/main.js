@@ -96,7 +96,7 @@
 
 //**************************************************/ mattboldt.js***********************************
 var typed = new Typed('.element', {
-    strings: ["Make Your Event Memorable", " "],
+    strings: ["Make Your Event Memorable.", " "],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
