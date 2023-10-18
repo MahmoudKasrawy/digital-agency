@@ -96,7 +96,7 @@
 
 //**************************************************/ mattboldt.js***********************************
 var typed = new Typed('.element', {
-    strings: ["Transform your event into a memorable experience with our photo booths rentals in Qatar services.", " "],
+    strings: ["Make Your Event Memorable", " "],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
@@ -140,9 +140,7 @@ $(' .owl-carousel').owlCarousel({
     }
 })
 
-$(document).ready(function() {
-    $(".skitter-large").skitter();
-  });
+
 
 
 
