@@ -680,9 +680,8 @@ body {
     border-radius: 50%;
     color: #6222CC;
 }
-.owl-nav.disabled {
-
-    display:flex;
+.owl-carousel .owl-nav.disabled {
+    display: flex !important;
 }
 @media (max-width:850px) {
     .m-top {
