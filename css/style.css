@@ -680,7 +680,10 @@ body {
     border-radius: 50%;
     color: #6222CC;
 }
+nav.disabled{
 
+    display:flex;
+}
 @media (max-width:850px) {
     .m-top {
         margin-top: 50px;
