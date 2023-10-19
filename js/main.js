@@ -110,7 +110,10 @@ $(' .owl-carousel').owlCarousel({
     loop:true,
     margin:15,
     responsiveClass:true,
-
+   navText: [
+                '<i class="bi bi-chevron-left"></i>',
+                '<i class="bi bi-chevron-right"></i>'
+            ],
     responsive:{
         0:{
             items:1,
@@ -129,10 +132,7 @@ $(' .owl-carousel').owlCarousel({
         1000:{
             items:4,
             nav:true,
-            navText: [
-                '<i class="bi bi-chevron-left"></i>',
-                '<i class="bi bi-chevron-right"></i>'
-            ],
+         
             loop:true,
             
             
