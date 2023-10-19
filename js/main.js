@@ -108,7 +108,7 @@ var typed = new Typed('.element', {
 //   owl-carousel
 $(' .owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:15,
     responsiveClass:true,
 
     responsive:{
