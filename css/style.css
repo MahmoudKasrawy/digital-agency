@@ -59,9 +59,9 @@ h2,
     font-weight: 700 !important;
 }
 .fw-normal{
-    font-weight:500 !important;
-    font-size: 2.7rem !important;
-    margin-bottom: 12rem !important;
+    font-weight:normal !important;
+    font-size: 3.5rem !important;
+
 }
 h3,
 h4,
@@ -262,7 +262,7 @@ body {
 .hero-header {
     margin-bottom: 6rem;
     padding-top: 9rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
 
 }
 
@@ -271,22 +271,39 @@ body {
     height: auto !important;
     
 }
-
+.text-m{
+    margin-bottom: 10rem;
+}
+.text-m a{
+    padding-right:  4rem !important;
+    padding-left:  4rem !important;
+}
 
 
 @media (max-width: 991.98px) {
     .hero-header {
         padding: 6rem 0 9rem 0;
     }
-
+    .text-m{
+        margin-bottom: 0rem;
+    }
 }
-hr:not([size]){
-    height: 2px !important;
-    left: 0 !important;
-    position: absolute;
-    bottom: 4rem;
-}
+@media (max-width:1286.40px)
+ {
 
+    .text-m{
+        margin-bottom:5rem !important;
+    }
+}
+@media (max-width:450px)
+ {
+.fw-normal{
+    font-size: 3rem !important;
+}
+    .text-m{
+        margin-bottom: 5rem !important;
+    }
+}
 
 
 /*** Section Title ***/
@@ -576,7 +593,10 @@ hr:not([size]){
         font-size: 12px;
         padding: 11px;
     }
-
+    hr:not([size])
+    {
+        display: none !important;
+    }
 
     .t-center {
         text-align: center;
