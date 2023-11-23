@@ -314,7 +314,9 @@ body {
     font-weight: 500;
     text-transform: uppercase;
 }
-
+.text-bl{
+    color: #004b85 !important;
+}
 .section-title span:first-child,
 .section-title span:last-child {
     position: relative;
@@ -355,7 +357,7 @@ body {
 .section-title.text-secondary span:last-child,
 .section-title.text-secondary span:first-child::after,
 .section-title.text-secondary span:last-child::after {
-    background: var(--secondary);
+    background:#004b85;
 }
 
 .section-title.text-white span:first-child,
